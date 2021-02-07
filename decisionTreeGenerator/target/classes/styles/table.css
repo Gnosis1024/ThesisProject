@@ -1,0 +1,39 @@
+.table-view {
+    -fx-base: #212F3C;
+    -fx-control-inner-background: #212F3C;
+    -fx-background-color: #212F3C;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: black;
+    -fx-padding: 15;
+}
+
+.table-view .column-header, .table-view .column-header-background .filler {
+    -fx-background-color:  #2E4053;
+    -fx-border-color: #212F3D;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 15pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+    -fx-opacity: 1;
+}
+
+.table-view .cell {
+    -fx-alignment: CENTER;
+}
+
+.yes-trust {
+    -fx-background-color: #16A085;
+    -fx-border-color: #212F3D;
+}
+
+.no-trust {
+    -fx-background-color: #7B241C;
+    -fx-border-color: #212F3D;
+}
+
+.no-trust .text {
+    -fx-fill: white;
+}

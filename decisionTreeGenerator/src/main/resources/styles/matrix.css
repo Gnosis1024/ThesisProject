@@ -1,0 +1,17 @@
+.rectangle {
+    -fx-fill: #2E4053;
+    -fx-stroke: white;
+    -fx-stroke-width: 2pt;
+}
+
+.label-red {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #E00F00;
+}
+
+.label-green {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #16A085;
+}

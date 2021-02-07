@@ -1,0 +1,39 @@
+.root {
+    -fx-background-color: #212F3D;
+}
+
+.line {
+    -fx-fill: black;
+    -fx-border-color: white;
+    -fx-arc-width: 3pt;
+}
+
+.ellipse-node, .arrow, .ig-label {
+    -fx-fill: #2E4053;
+    -fx-stroke: black;
+    -fx-stroke-width: 2pt;
+}
+
+.ellipse-leaf-yes {
+    -fx-fill: #16A085;
+    -fx-stroke: black;
+    -fx-stroke-width: 2pt;
+}
+
+.ellipse-leaf-no {
+    -fx-fill: #7B241C;
+    -fx-stroke: black;
+    -fx-stroke-width: 2pt;
+}
+
+.ellipse-leaf-mixed {
+    -fx-fill: #909497;
+    -fx-stroke: black;
+    -fx-stroke-width: 2pt;
+}
+
+.ellipse-leaf-unknown {
+    -fx-fill: #000099;
+    -fx-stroke: white;
+    -fx-stroke-width: 2pt;
+}
